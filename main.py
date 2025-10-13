@@ -1,4 +1,4 @@
-print("¡Sean Bienvenidos al Sistema de Gestion de productos!")
+print("¡Sean Bienvenidos y A al Sistema de Gestion de Productos!")
 
 productos = []
 
