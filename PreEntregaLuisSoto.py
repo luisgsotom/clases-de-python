@@ -22,14 +22,14 @@ while True:
         # Nombre
         titulo = ""
         while titulo == "":
-            titulo = input("Ingrese el nombre del artículo: ").strip()
+            titulo = input("Ingrese el nombre del artículo: ").strip() .lower()
             if titulo == "":
                 print("⚠️ El nombre no puede quedar vacío.")
 
         # Categoría
         tipo = ""
         while tipo == "":
-            tipo = input("Ingrese la categoría: ").strip()
+            tipo = input("Ingrese la categoría: ").strip() .lower()
             if tipo == "":
                 print("⚠️ La categoría no puede quedar vacía.")
 
@@ -125,7 +125,7 @@ while True:
 
     # Opción 5: salir
     elif eleccion == "5":
-        print("\nGracias por usar el Gestor de Inventario. ¡Hasta la próxima!")
+        print("\nGracias por usar el SGP. Su Gestor de Inventario. ¡Hasta la próxima!")
         break
 
     else:
